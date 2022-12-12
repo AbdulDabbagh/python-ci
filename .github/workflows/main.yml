@@ -21,4 +21,4 @@ jobs:
           run: python src/main.py run
           
         - name: run-test
-          run: python test/test.py run
+          run: pytest test/test.py 
