@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - AbdulDabbagh-patch-1
       
 jobs:
     run-test:
