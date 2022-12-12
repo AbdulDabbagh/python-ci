@@ -17,5 +17,8 @@ jobs:
         - name: Setup Python
           uses: actions/setup-python@v4.3.1
           
-        - name: run-test
+        - name: run-main
           run: python src/main.py run
+          
+        - name: run-test
+          run: python test/test.py run
